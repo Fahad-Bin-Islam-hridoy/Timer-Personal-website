@@ -1,0 +1,336 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*------------- ---------------------------*/
+/*  menu-top
+/*----------------------------------------*/
+.header-top{
+  background: #FFFFFF;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:999999;
+}
+
+.header-top .logo img{
+  float: left;
+}
+.header-top .menu{
+  float: right;
+  margin-left: 60px;
+}
+
+.header-top .menu .nav-item{
+  
+margin-top: 10px;
+margin-left: 50px;
+}
+
+
+
+.header-top .menu a{
+  font-weight: bold;
+  font-family: tahoma;
+  font-size: 16px;
+  padding: 0px 9px;
+  width: 89px;
+}
+
+
+.menu .navbar-nav a:hover{
+  color: #02BDD5;
+}
+
+
+/*------------- ---------------------------*/
+/* Menu-top
+/*----------------------------------------*/
+
+/*------------- ---------------------------*/
+/* Cover
+/*----------------------------------------*/
+
+.cover{
+  display: flex;
+  background-image: url(images/slider.jpg);
+  width: 100%;
+  height: 100vh;
+  opacity: 0.7;
+  background-attachment: fixed;
+  }
+  .cover img{
+    position: fixed;
+  }
+
+  
+ .cover .over-lay{
+    margin-left: 180px;
+    margin-top: 250px;
+    width: 720px;
+}
+
+.cover .over-lay h2{
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  }
+  .cover .over-lay p{
+  padding: 10px 0px;
+  padding-bottom: 20px;
+  color: black;
+  text-align: center;
+  }
+ .cover .over-lay a{
+ text-decoration: none;
+ text-align: center;
+ padding: 15px 20px;
+ color: white;
+ background: black;
+ border-radius: 5px;
+ margin-left: 310px;
+  }
+/*------------- ---------------------------*/
+/* Cover
+/*----------------------------------------*/
+/*------------- ---------------------------*/
+/* About-me
+/*----------------------------------------*/
+.about-me .left-side h3{
+ 
+  margin-top: 60px;
+}
+.about-me .left-side p{
+  text-align: justify;
+  color: black;
+  font-size: 16px;
+}
+
+.about-me .right-side img{
+  padding-top: 20px;
+}
+
+/*------------- ---------------------------*/
+/* About-me
+/*----------------------------------------*/
+
+/*------------- ---------------------------*/
+/* Works
+/*----------------------------------------*/
+
+#latest-work{
+  background:#FCFCFC;
+}
+
+#latest-work h2{
+  text-align: center;
+}
+#latest-work p{
+  text-align: center;
+  font-size: 16px;
+  margin-left: 60px;
+  padding: 20px 0px;
+}
+.works{
+ 
+  display: flex;
+  margin-top: 20px;
+ 
+
+}
+.box-shadow{
+  box-shadow: 10px 10px 5px #888888;
+  width: 300px;
+}
+.box{
+   
+    position: relative;
+    width: 300px;
+    height: 300px; 
+    overflow: hidden;  
+    background: black; 
+  }
+
+ .image{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 300px;
+  height: 300px;    
+  
+
+}
+
+ .box .content{
+  transition: all 2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  display:flex;
+
+
+
+}
+.box .content .text1 {
+  
+  color: white;
+  font-size: 16px;
+  padding: 16px 22px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box .content .text1 a{
+  width: 400px;
+  color: white;
+  background: transparent;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.box .content .text2 a{
+  width: 400px;
+  color: white;
+  background: transparent;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 15px 20px;
+  font-weight: bold;
+
+}
+.box .content .text2 {
+  color: white;
+  font-size: 16px;
+  padding: 16px 22px;
+  border-radius: 10px;
+
+}
+
+.box:hover .image {
+  opacity: 0.3;
+  width: 380px;
+  height: 360px;
+
+}
+
+.box:hover .content {
+  opacity: 3.0;
+  
+ }
+
+ .box-content{
+  width: 300px;
+  height: auto;
+  background: white;
+ 
+  padding: 5px 10px;
+
+ }
+ .box-content h5{
+  color: #02BDD5;
+ }
+ .box-content p{
+  color: black;
+ }
+
+
+
+/*------------- ---------------------------*/
+/* Works
+/*----------------------------------------*/
+
+
+/*------------- ---------------------------*/
+/* offers
+/*----------------------------------------*/
+
+
+.offer .offer-headr{
+  padding: 60px 0px;
+}
+.offer .offer-headr h3{
+  text-align: center;
+}
+.offer  .offer-headr p{
+  text-align: center;
+}
+.icon{
+  display: flex;
+}
+
+.icon-shadow{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding: 20px 20px; 
+
+  background: #02BDD5;
+}
+
+.icon-shadow i{
+  color: white;
+  font-size: 35px;
+}
+
+.icon .icon-content{
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 20px 15px;
+}
+
+.icon .icon-content p{
+  font-size: 8px;
+}
+
+/*------------- ---------------------------*/
+/* offers
+/*----------------------------------------*/
+
+/*------------- ---------------------------*/
+/* Footer-starts
+/*----------------------------------------*/
+    .footers .footer{
+      background-color:  #02BDD5;
+      padding: 90px;
+    }
+    .footers .footer h3{
+      text-align: center;
+      color: white;
+    }
+    .footers .footer p{
+      text-align:center;
+      color: white;
+    }
+    .footer button{
+      padding: 10px 100px;
+      margin-left: 400px;
+      margin-top: 20px;
+      background: white;
+      color: #02BDD5;
+    }
+
+    .social-plugins{
+      display: flex;
+        margin-left: 300px;
+    }
+    .social-plugins i{
+      color: #02BDD5;
+      font-size: 20px;
+      padding: 10px 20px;
+    
+    }
+/*------------- ---------------------------*/
+/* Footer-ends
+/*----------------------------------------*/
